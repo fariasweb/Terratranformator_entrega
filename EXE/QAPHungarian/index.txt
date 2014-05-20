@@ -1,0 +1,6 @@
+QAPHungarian.class
+QAPHungarianDriver.class
+QAPHungarian1.in
+index.txt
+QAPHungarian2.in
+QAPHungarian3.in

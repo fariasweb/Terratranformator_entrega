@@ -1,0 +1,49 @@
+1
+9
+3
+4 G1
+4 G10
+5 G2
+2 G1 5 5
+2 G2 1 2
+2 G3 4 5
+2 G4 5 6
+2 G6 4 2
+2 G5 1 1
+2 G7 1 5
+3
+15 ./save/GalaxyControler.txt false
+4 G1
+4 G5
+4 G10
+7 G5
+9
+4 G5
+4 G3
+5 G3
+5 G7
+5 G8
+6 G5 G12
+6 G4 G5
+6 G5 G1
+5 G7
+7 G7
+5 G7
+9
+15 ./save/GalaxyControler.txt false
+10 marte 1 1
+10 muerte 1 2
+11 G1 marte
+11 G10 muerte
+11 G1 venus
+12 G1
+12 G10
+13 G1 marte
+13 G1 venus
+14 G1
+14 G10
+9
+8
+16 ./save/GalaxyControler.txt
+
+
