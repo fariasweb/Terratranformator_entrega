@@ -177,8 +177,8 @@ class GalaxyControllerDriver extends AbstractDriver {
 
 	public static void loadGalaxyController(GalaxyController gc, String path) {
 		try {
-			LoadThread l1 = new LoadThread(gc,path);
-			Thread t1 = new Thread(l1,"Load Thread!");
+			gc.load(path);
+
 		} catch (Exception e) {
 
 			_msg_error(e.getMessage());
@@ -187,9 +187,7 @@ class GalaxyControllerDriver extends AbstractDriver {
 
 	public static void saveGalaxyController(GalaxyController gc, String path, boolean append) {
 		try {
-			SaveThread s1 = new SaveThread(gc,path,append);
-			Thread t1 = new Thread(s1, "Save Thread!");
-			t1.start();
+			gc.save(path, append);
 
 		} catch (Exception e) {
 
